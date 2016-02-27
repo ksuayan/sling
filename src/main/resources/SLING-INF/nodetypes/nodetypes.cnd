@@ -1,0 +1,13 @@
+//
+//  You can find out more documentation on this topic 
+//	by following these links:
+//
+//    -  http://sling.apache.org/site/content-loading.html
+//	  -	 http://jackrabbit.apache.org/node-type-notation.html
+//
+
+<gb = 'http://globalbin.com/sling'>
+
+[gb:node] > nt:unstructured
+	- title (string)
+	- description (string)

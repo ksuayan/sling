@@ -7,3 +7,17 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
+
+target/
+generated/
+.idea/
+node_modules/
+.settings
+.project
+.classpath
+*.vlt
+*.vltignore
+*.jar
+/bin
+
+.DS_Store

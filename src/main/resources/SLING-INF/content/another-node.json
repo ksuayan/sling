@@ -1,0 +1,27 @@
+{
+    "title": "Another Node from JSON",
+    "description": "This is another node created with a JSON file.",
+    "jcr:primaryType": "gb:node",
+
+    // child node name
+    "child" : {
+        "title": "Boom!",
+        "description": "It works.",
+
+        // optional primary node type, default "nt:unstructured"
+        "jcr:primaryType": "gb:node",
+
+        // optional mixin node types as array
+        "jcr:mixinTypes": [ ],
+
+        // Multi-value String
+        "sampleMulti": [ "v1", "v2" ],
+
+        // Long value, single and multi
+        "sampleStruct": 1,
+        "sampleStructMulti": [ 1, 2, 3 ],
+
+        // Date follows pattern yyyy-mm-ddTHH:MM:SS.sss±HH:MM
+        "sampleDate": "2014-11-27T13:26:00.000+01:00"
+    }
+}

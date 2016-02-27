@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+    <primaryNodeType>gb:node</primaryNodeType>
+    
+    <property>
+        <name>title</name>
+        <type>String</type>
+        <value>A JCR node from XML.</value>
+    </property>
+    
+    <property>
+        <name>description</name>
+        <type>String</type>
+        <value>This node has been created by a sling bundle.</value>
+    </property>
+
+    <property>
+        <name>boom</name>
+        <type>String</type>
+        <value>A sample property.</value>
+    </property>
+</node>

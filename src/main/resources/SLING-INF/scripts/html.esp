@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title><%= currentNode.title %></title>
+	</head>
+	<body>
+		<h1><%= currentNode.title %></h1>
+		<p><%= currentNode.description %></p>
+		<hr size="1">
+		<p>Woo hoo!</p>
+	</body>
+</html>
