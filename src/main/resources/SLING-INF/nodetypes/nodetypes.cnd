@@ -9,5 +9,10 @@
 <gb = 'http://globalbin.com/sling'>
 
 [gb:node] > nt:unstructured
-	- title (string)
-	- description (string)
+	- title (STRING)
+	- description (STRING)
+
+[gb:unstructured] mixin orderable query
+	- * (UNDEFINED)
+	- * (UNDEFINED) multiple
+	+ * (nt:base) = nt:hierarchyNode sns version
