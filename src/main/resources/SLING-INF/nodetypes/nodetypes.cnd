@@ -6,7 +6,7 @@
 //	  -	 http://jackrabbit.apache.org/node-type-notation.html
 //
 
-<gb = 'http://globalbin.com/sling'>
+<gb = 'http://globalbin.com/sling/1.0'>
 
 [gb:node] > nt:unstructured
 	- title (STRING)
